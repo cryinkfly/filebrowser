@@ -96,6 +96,8 @@ frontend:
     - text: "(untracked)"                 # the text to display on the link  validate:required
       title: "untracked"                  # the title to display on hover
       url: "https://github.com/gtsteffaniak/filebrowser/releases/" # the url to link to  validate:required
+    - text: "\u200B"                      # A zero-width space is used so the frontend displays an empty line.
+      title: ""
     - text: "Help"                        # the text to display on the link  validate:required
       title: ""                           # the title to display on hover
       url: "help prompt"                  # the url to link to  validate:required
